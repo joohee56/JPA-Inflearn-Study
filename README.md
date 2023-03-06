@@ -3,16 +3,6 @@
 </br>
 </br>
 
-## 순서
-<img width="70%" alt="image" src="https://user-images.githubusercontent.com/83942393/223060001-bf0d6647-2817-4e94-8eec-89cc13a83bb4.png"> 
-<img width="70%" alt="image" src="https://user-images.githubusercontent.com/83942393/223060592-79012640-dbcc-4891-aa74-058707da3067.png">
-<img width="70%" alt="image" src="https://user-images.githubusercontent.com/83942393/223061119-7b311c60-06bd-4a26-bec7-63a856c35283.png">
-<img width="70%" alt="image" src="https://user-images.githubusercontent.com/83942393/223061496-3ac6c235-c7fc-4dcc-8fca-f62b72b79818.png">
-</br>
-<img width="70%" alt="image" src="https://user-images.githubusercontent.com/83942393/223061640-0e46ba96-5506-4578-adb2-b3dd822b45d6.png">
-</br>
-
-## 수강 보드
 ### [1. 자바 ORM 표준 JPA 프로그래밍 - 기본편](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
 </br>
 
