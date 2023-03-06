@@ -12,6 +12,7 @@
 <img width="70%" alt="image" src="https://user-images.githubusercontent.com/83942393/223061640-0e46ba96-5506-4578-adb2-b3dd822b45d6.png">
 </br>
 
+## 보드
 | 목록 | 수강 여부 | 정리 여부 |
 |:-----|:-----:|:-----:|
 | 섹션 0: 강의 소개 (9분) | ✔️ | ✅ |
