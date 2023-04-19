@@ -78,7 +78,7 @@
 </br>
 </br>
 
-### 5. 실전! Querydsl
+### ~5. 실전! Querydsl~
 [강의 링크](https://www.inflearn.com/course/querydsl-%EC%8B%A4%EC%A0%84/dashboard)
 </br>
 
