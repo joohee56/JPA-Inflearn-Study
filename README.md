@@ -1,10 +1,5 @@
 # JPA-Inflearn-Study
-인프런 김영한님의 스프링 부트와 JPA 학습  디렉토리
-</br>
-</br>
-
-|<img width="100%" alt="image" src="https://user-images.githubusercontent.com/83942393/223091119-8adff22c-87f4-442f-b729-d4035b9b7921.png">|<img width="100%" alt="image" src="https://user-images.githubusercontent.com/83942393/223091165-c8bf5f45-5a2e-4431-8c86-46cd220ce110.png">|<img width="100%" alt="image" src="https://user-images.githubusercontent.com/83942393/223091200-cb9032b2-c906-40f4-8646-8b48d4555e26.png">|<img width="100%" alt="image" src="https://user-images.githubusercontent.com/83942393/223091290-69294365-105b-42e8-bb02-7a29d5574072.png">|<img width="100%" alt="image" src="https://user-images.githubusercontent.com/83942393/223091320-7c0b860c-8a12-4d0b-9072-a178fb5df760.png">|
-|:-----:|:-----:|:-----:|:-----:|:-----:|
+인프런 김영한님의 스프링 부트와 JPA 학습 디렉토리
 </br>
 
 ### 1. 자바 ORM 표준 JPA 프로그래밍 - 기본편
