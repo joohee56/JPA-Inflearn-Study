@@ -1,6 +1,5 @@
 package hellojpa;
 
-import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
@@ -15,8 +14,13 @@ public class JpaMain {
         tx.begin();
 
         try {
-            List<Member> result = em.createQuery("select m from Member as m", Member.class)
-                    .getResultList();
+            Member memberA = new Member();
+            em.persist(memberA);
+            System.out.println("==== BEFORE FIND ===");
+
+            em.find(Member.class, 1000L);
+            System.out.println("==== AFTER FIND ===");
+
             tx.commit();
         } catch (Exception e) {
             tx.rollback();
