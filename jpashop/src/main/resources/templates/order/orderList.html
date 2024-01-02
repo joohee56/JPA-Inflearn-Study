@@ -27,6 +27,39 @@
             <tr>
                 <th>#</th>
                 <th>회원명</th>
+                <th>상품 이름</th>
+                <th>상품 주문가격</th>
+                <th>상품 주문수량</th>
+                <th>상태</th>
+                <th>주문일시</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <span th:each="order : ${orders}">
+                <tr th:each="item : ${order.orderItems}">
+                    <td th:text="${order.id}"></td>
+                    <td th:text="${order.member.name}"></td>
+                    <td th:text="${item.item.name}"></td>
+                    <td th:text="${item.orderPrice}"></td>
+                    <td th:text="${item.count}"></td>
+                    <td th:text="${order.status}"></td>
+                    <td th:text="${order.orderDate}"></td>
+                    <td>
+                        <a th:if="${order.status.name() == 'ORDER'}" href="#"
+                           th:href="'javascript:cancel('+${item.id}+')'"
+                           class="btn btn-danger">CANCEL</a>
+                    </td>
+                </tr>
+            </span>
+            </tbody>
+        </table>
+        <!--
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>회원명</th>
                 <th>대표상품 이름</th>
                 <th>대표상품 주문가격</th>
                 <th>대표상품 주문수량</th>
@@ -52,6 +85,7 @@
             </tr>
             </tbody>
         </table>
+        -->
     </div>
     <div th:replace="fragments/footer :: footer"/>
 </div> <!-- /container -->
